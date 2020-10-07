@@ -6,11 +6,12 @@ const r1 = readline.createInterface({
 });
 
 let number = r1.question("Write a number: ", (answer) => {
-    let numbers = answer.split(' ')
+    
     console.log(numbers)
 
     let num1 = numbers[0].split('').reverse()
     let num2 = numbers[1].split('').reverse()
+    let numbers = answer.split(' ')
 
     console.log(num1)
 
