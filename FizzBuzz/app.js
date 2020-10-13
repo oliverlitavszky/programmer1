@@ -1,14 +1,14 @@
-for (let n = 0; n<100;n++){
-    if(n % 2==0){
-        console.log(n)
+for (let fizzy = 0; fizzy < 100; fizzy++){
+    if(fizzy % 2 == 0){
+        console.log(fizzy)
     }
-    else if(n % 3==0 && n % 5 ==0){
+    else if(fizzy % 3 == 0 && fizzy % 5 == 0){
         console.log("FizzBuzz")
     }
-    else if(n % 3 ==0){
+    else if(fizzy % 3 == 0){
         console.log("Fizz")
     }
-    else if(n % 5==0){
+    else if(fizzy % 5 == 0){
         console.log("Buzz")
     }
 }

@@ -17,11 +17,11 @@ rl.on('line', (input) => {
         let gunnar = lines[0]
         let emma = lines[1]
 
-        gunnarDiceOne = (Number(gunnar.split(' ')[1]) + Number(gunnar.split(' ')[4])) / 2
-        gunnarDiceTwo = (Number(gunnar.split(' ')[2]) + Number(gunnar.split(' ')[6])) / 2
+            gunnarDiceOne = (Number(gunnar.split(' ')[1]) + Number(gunnar.split(' ')[4])) / 2
+            gunnarDiceTwo = (Number(gunnar.split(' ')[2]) + Number(gunnar.split(' ')[6])) / 2
 
-        emmaDiceOne = (Number(emma.split(' ')[2]) + Number(emma.split(' ')[5])) / 2
-        emmaDiceTwo = (Number(emma.split(' ')[1]) + Number(emma.split(' ')[7])) / 2
+            emmaDiceOne = (Number(emma.split(' ')[2]) + Number(emma.split(' ')[5])) / 2
+            emmaDiceTwo = (Number(emma.split(' ')[1]) + Number(emma.split(' ')[7])) / 2
 
 
 
