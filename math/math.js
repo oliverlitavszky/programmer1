@@ -1,7 +1,6 @@
 const readline = require('readline');
 
-let num = Math.round(Math.random() * 10) + 1;
-console.log(num);
+let num = Math.round(Math.random() * 10);
 let attempt = 5;
 
 const rl = readline.createInterface({
@@ -25,7 +24,7 @@ else if (ans === num){
     process.exit();
   }
 
-  attempt--;
+    attempt--;
 if (attempt == 0){
     console.log('Försök igen kompis!');
     process.exit();
