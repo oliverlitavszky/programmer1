@@ -1,6 +1,6 @@
 const readline = require('readline');
 
-let num = Math.round(Math.random() * 10);
+let num = Math.round(Math.random() * 10 + 1);
 let attempt = 5;
 
 const rl = readline.createInterface({
@@ -13,10 +13,12 @@ rl.on('line', (input) =>
   let ans = parseInt(input);
 
 if (ans > num){
-    console.log('Gissa lite lägre!');
+    console.log('Gissa lite lägre!'); 
   }
+
 else if (ans < num){
       console.log("Gissa lite högre!");
+      
   }
 
 else if (ans === num){
